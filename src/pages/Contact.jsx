@@ -1,7 +1,7 @@
 function Contact() {
     return (
       <>
-      <h1>about stuff</h1>
+      <h1>holler at me</h1>
       </>
     );
   }

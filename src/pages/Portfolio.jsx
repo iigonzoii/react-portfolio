@@ -1,7 +1,10 @@
+import PortfolioCard from "../components/PortfolioCard"
+
 function Portfolio() {
     return (
       <>
-      <h1>about stuff</h1>
+      <PortfolioCard />
+      <h1>portfolio </h1>
       </>
     );
   }

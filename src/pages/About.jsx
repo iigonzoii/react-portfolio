@@ -1,7 +1,7 @@
 function About() {
     return (
       <>
-      <h1>about stuff</h1>
+      <h1>about me and what not</h1>
       </>
     );
   }

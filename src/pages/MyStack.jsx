@@ -1,7 +1,7 @@
 function MyStack() {
     return (
       <>
-      <h1>about stuff</h1>
+      <h1>mystack mern</h1>
       </>
     );
   }
