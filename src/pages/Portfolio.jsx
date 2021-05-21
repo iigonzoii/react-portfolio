@@ -1,13 +1,15 @@
 import PortfolioCard from "../components/PortfolioCard"
 
 function Portfolio(props) {
-  console.log(`props`,props)
-    return (
-      <>
-      <PortfolioCard portfolioArray={props.portfolioArray}/>
-      <h1>portfolio </h1>
-      </>
-    );
-  }
-  
-  export default Portfolio;
+  return (
+    <>
+<div className="bg-red-500">
+      <PortfolioCard
+        portfolioArray={props.portfolioArray}
+      />
+</div>
+    </>
+  );
+}
+
+export default Portfolio;

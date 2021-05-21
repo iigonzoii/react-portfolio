@@ -1,7 +1,9 @@
 function Footer () {
     return (
       <>
-      <h1>footer</h1>
+      
+      <h1 className="bg-black text-red-500">footer</h1>
+     
       </>
     );
   }

@@ -47,15 +47,12 @@ function App() {
     },
   ];
 
-  
-
-  // ? Project three structure, css not working(stucture), duplicate folders
 
   return (
     <>
 
       <Header />
-
+{/* something is wrong with my about path */}
       <Router>
         <Switch>
           <Route path="/about">
@@ -75,6 +72,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+
       <Footer />
     </>
   );

@@ -1,6 +1,7 @@
 
 
 function PortfolioCard(props) {
+  
   return (
 
 
@@ -24,6 +25,7 @@ function PortfolioCard(props) {
         );
       })}
     </div>
+    
 
   );
 }
