@@ -25,7 +25,7 @@ function App() {
       title: "Weather Dashboard",
       gitHub: "https://github.com/iigonzoii/WeatherDashBoard",
       deployedSite: "https://iigonzoii.github.io/WeatherDashBoard/",
-      img: "",
+      img: "https://firebasestorage.googleapis.com/v0/b/project-images-5c20b.appspot.com/o/wdb3fb.jpg?alt=media&token=aeadc92a-972f-4203-9068-a24ef70602c2",
       description:
         "Use this application to find the current forecast and the upcoming fiveday forecast as well",
     },
@@ -33,7 +33,7 @@ function App() {
       title: "WorkDay Scheduler",
       gitHub: "https://github.com/iigonzoii/WorkDayScheduler",
       deployedSite: "https://iigonzoii.github.io/WorkDayScheduler/",
-      img: "placeholder",
+      img: "https://firebasestorage.googleapis.com/v0/b/project-images-5c20b.appspot.com/o/better%20copy.jpg?alt=media&token=0d96e8e2-a5d1-4446-a325-52624fef95d1",
       description:
         "Responsive scheduler that breaks down your work day hour blocks by color. Itemizing your meetings by past, present, and future",
     },
