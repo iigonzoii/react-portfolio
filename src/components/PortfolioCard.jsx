@@ -10,13 +10,13 @@ function PortfolioCard(props) {
         return (
           <div key={index}>
             <h1>{each.title}</h1>
-            <button>
+            <button className="bg-gray-500">
               <a href={each.gitHub} rel="noreferrer" target="_blank">
                 Github
               </a>
             </button>
             <br/>
-            <button>
+            <button className="bg-gray-500">
               <a href={each.deployedSite} rel="noreferrer" target="_blank">Deployed Site</a>
             </button>
             <img src={each.img} alt={each.title} />

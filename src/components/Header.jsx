@@ -3,10 +3,11 @@ function Header () {
     return (
       <>
       <Router>
-      <ul class="flex bg-black ">
+        <header className="text-3xl  ">
+      <ul class="flex bg-black p-12">
   <li class="mr-6">
     <Link to="/about">
-    <span class="text-blue-500 hover:text-blue-800">About</span>
+    <span class="text-blue-500 hover:text-blue-800 ">About</span>
     </Link>
   </li>
   <li class="mr-6">
@@ -19,6 +20,7 @@ function Header () {
     <a class="text-blue-500 hover:text-blue-800" href="Mystack">My Stack</a>
   </li>
 </ul>
+</header>
 </Router>
 
       </>
