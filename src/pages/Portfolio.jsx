@@ -1,9 +1,10 @@
 import PortfolioCard from "../components/PortfolioCard"
 
-function Portfolio() {
+function Portfolio(props) {
+  console.log(`props`,props)
     return (
       <>
-      <PortfolioCard />
+      <PortfolioCard portfolioArray={props.portfolioArray}/>
       <h1>portfolio </h1>
       </>
     );

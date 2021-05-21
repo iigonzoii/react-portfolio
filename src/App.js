@@ -45,22 +45,6 @@ function App() {
 
   return (
     <>
-      <div className="grid grid-cols-2 gap-4 portfolio-grid">
-        {portfolioArray.map((each, index) => {
-          return (
-            <div key={index}>
-              <h1>{each.title}</h1>
-              <a href={each.gitHub} rel="noreferrer" target="_blank">
-                Github
-              </a>
-              <p>{each.deployedSite}</p>
-              <img src={each.img} alt={each.title} />
-              <p>{each.description}</p>
-            </div>
-          );
-        })}
-      </div>
-
 
       <Header />
 
@@ -71,7 +55,7 @@ function App() {
           </Route>
 
           <Route path="/portfolio">
-            <Portfolio />
+            <Portfolio portfolioArray={portfolioArray} />
           </Route>
 
           <Route path="/mystack">
