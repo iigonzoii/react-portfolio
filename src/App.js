@@ -1,5 +1,5 @@
 import "./App.css";
-import About from "./pages/About";
+import AboutPage from "./pages/AboutPage";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import MyStack from "./pages/MyStack";
@@ -51,12 +51,17 @@ function App() {
   return (
     <>
 
-      <Header />
 {/* something is wrong with my about path */}
+      <Header />
       <Router>
+        
         <Switch>
-          <Route path="/about">
+        {/* <Route path="/">
             <About />
+          </Route> */}
+        
+          <Route path="/about">
+            <AboutPage />
           </Route>
 
           <Route path="/portfolio">

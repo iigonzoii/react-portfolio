@@ -1,24 +1,31 @@
+// ! my link isnt working here, i have it working on my project though. 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function Header () {
     return (
       <>
       <Router>
         <header className="text-3xl  ">
-      <ul class="flex bg-black p-12">
-  <li class="mr-6">
+      <ul className="flex bg-black p-12">
+  <li className="mr-6">
     <Link to="/about">
-    <span class="text-blue-500 hover:text-blue-800 ">About</span>
+    <span className="text-blue-500 hover:text-blue-800 ">
+      About
+      </span>
     </Link>
   </li>
-  <li class="mr-6">
-    <a class="text-blue-500 hover:text-blue-800" href="Portfolio">Portfolio</a>
+
+  <li className="mr-6">
+    <a className="text-blue-500 hover:text-blue-800" href="Portfolio">Portfolio</a>
   </li>
-  <li class="mr-6">
-    <a class="text-blue-500 hover:text-blue-800" href="Contact">Contact</a>
+
+  <li className="mr-6">
+    <a className="text-blue-500 hover:text-blue-800" href="Contact">Contact</a>
   </li>
-  <li class="mr-6">
-    <a class="text-blue-500 hover:text-blue-800" href="Mystack">My Stack</a>
+
+  <li className="mr-6">
+    <a className="text-blue-500 hover:text-blue-800" href="Mystack">My Stack</a>
   </li>
+
 </ul>
 </header>
 </Router>
