@@ -1,6 +1,6 @@
-import PortfolioCard from "../components/PortfolioCard"
-
-function Portfolio(props) {
+import PortfolioCard from "../../components/PortfolioCard"
+import "./portfolio.css"
+function PortfolioPage(props) {
   return (
     <>
 <div className="bg-gray-900">
@@ -12,4 +12,4 @@ function Portfolio(props) {
   );
 }
 
-export default Portfolio;
+export default PortfolioPage;

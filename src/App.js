@@ -1,8 +1,9 @@
 import "./App.css";
-import AboutPage from "./pages/AboutPage";
-import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
-import MyStack from "./pages/MyStack";
+import AboutPage from "./pages/AboutPage/AboutPage";
+import ContactPage from "./pages/ContactPage/Contact"
+import PortfolioPage from "./pages/PortfolioPage/Portfolio";
+
+import MyStack from "./pages/MyStackPage/MyStack";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { useEffect, useState } from "react";
@@ -60,20 +61,20 @@ function App() {
             <About />
           </Route> */}
         
-          <Route path="/about">
+          <Route exact path="/about">
             <AboutPage />
           </Route>
 
-          <Route path="/portfolio">
-            <Portfolio portfolioArray={portfolioArray} />
+          <Route exact path="/portfolio">
+            <PortfolioPage portfolioArray={portfolioArray} />
           </Route>
 
-          <Route path="/mystack">
+          <Route exact path="/mystack">
             <MyStack />
           </Route>
 
-          <Route path="/contact">
-            <Contact />
+          <Route exact path="/contact">
+            <ContactPage />
           </Route>
         </Switch>
       </Router>

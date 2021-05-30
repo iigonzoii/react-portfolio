@@ -2,10 +2,13 @@
 
 function PortfolioCard(props) {
   
+  
   return (
+<>
 
 
     <div className="grid sm:grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-4  portfolio-grid">
+    
       {props.portfolioArray.map((each, index) => {
         return (
           <div key={index}>
@@ -26,7 +29,7 @@ function PortfolioCard(props) {
       })}
     </div>
     
-
+    </>
   );
 }
 

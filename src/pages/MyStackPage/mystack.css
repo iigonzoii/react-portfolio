@@ -1,0 +1,8 @@
+.mystack { 
+    background: url("https://firebasestorage.googleapis.com/v0/b/react-portfolio-7e81b.appspot.com/o/mystack.jpeg?alt=media&token=4d82ac8b-67f4-44aa-ba59-ec06b462c961") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: max-content;
+}
