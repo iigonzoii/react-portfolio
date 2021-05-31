@@ -2,7 +2,7 @@
 function ContactMeComponent(){
     return(
        
-        <body className="bg-gray-900">
+        <body>
     <div className="flex w-full justify-around items-center bg-gray-100  text-gray-900">   
     </div>
     <form action="" className="my-20 p-10 max-w-xl mx-auto shadow-md sm:border-0 md:border md:border-gray-900 bg-gray-100 text-gray-900">

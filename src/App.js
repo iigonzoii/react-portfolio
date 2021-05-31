@@ -9,7 +9,7 @@ import Header from "./components/Header";
 import { useEffect, useState } from "react";
 
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   // const [portfolioArray, setPortfolioArray] = useState([])

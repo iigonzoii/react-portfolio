@@ -3,7 +3,7 @@ import "./portfolio.css"
 function PortfolioPage(props) {
   return (
     <>
-<div className="bg-gray-900">
+<div className="portfolio">
       <PortfolioCard
         portfolioArray={props.portfolioArray}
       />

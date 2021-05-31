@@ -1,5 +1,7 @@
-
-.portfolio-grid>div{
+.portfolio {
+    background-color: black;
+}
+/* .portfolio-grid>div{
     background-color: darkgray;
     margin: 50px;
     text-align: center;
@@ -10,4 +12,4 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-}
+} */

@@ -1,5 +1,5 @@
 // ! my link isnt working here, i have it working on my project though. 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 function Header () {
     return (
       <>
