@@ -1,5 +1,6 @@
 // ! my link isnt working here, i have it working on my project though. 
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import { HashRouter, Route, Link } from "react-router-dom";
 function Header () {
     return (
       <>
@@ -9,12 +10,16 @@ function Header () {
 
   <li className="mr-6 md:ml-4">
   
+     {/* <Link to="about"> */}
     <a className="text-blue-500 hover:text-blue-800 " href="about">About</a>
+    {/* </Link> */}
      
   </li>
 
   <li className="mr-6 md:ml-4">
+  
     <a className="text-blue-500 hover:text-blue-800" href="Portfolio">Portfolio</a>
+ 
   </li>
 
   <li className="mr-6 md:ml-4">
@@ -27,8 +32,8 @@ function Header () {
 
 </ul>
 </header>
-
 </Router>
+
       </>
     );
   }

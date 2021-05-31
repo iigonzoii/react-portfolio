@@ -9,7 +9,8 @@ import Header from "./components/Header";
 import { useEffect, useState } from "react";
 
 import React from "react";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import { HashRouter, Route, Link } from "react-router-dom";
 
 function App() {
   // const [portfolioArray, setPortfolioArray] = useState([])
@@ -52,13 +53,32 @@ function App() {
   return (
     <>
 
-{/* something is wrong with my about path */}
       <Header />
+
+     
+  {/* <HashRouter basename='/'>
+   <div>
+    <ul>
+     <li><Link to="/">Home</Link></li>
+     <li><Link to="/about">About</Link></li>
+    </ul>
+    <hr />
+    <Route exact path="/" component={AboutPage} />
+    <Route path="/about" component={AboutPage} />
+    <Route exact path="/mystack" component={MyStack} />
+    <Route exact path="/contact" component={ContactPage}/>
+    <Route exact path="/portfolio" component={PortfolioPage} portfolioArray={portfolioArray}/>
+           
+   </div>
+  </HashRouter> */}
+ 
+
+
       <Router>
         
         <Switch>
         {/* <Route path="/">
-            <About />
+            <AboutPage />
           </Route> */}
         
           <Route exact path="/about">
@@ -78,6 +98,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      );
 
       <Footer />
     </>
