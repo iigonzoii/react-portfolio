@@ -15,9 +15,9 @@ function AboutPage() {
       <br/>
       Most of my career background was in sales and contsruction. I'm extremely excited to move into a different
             field. I hope to work remotely one day and I would love to travel abroad. Take a look at my <a href="
-            https://github.com/iigonzoii" target="_blank">Github</a>, download my  <a href="
-            https://docs.google.com/document/d/1QwG0Qcn2CDvBcTuAvHeYNLwq-zLPtA53K0RXMmcVwm4/export?format=pdf" target="_blank">Resume</a>,  and find me on  <a href="
-            https://www.linkedin.com/in/gonzalez418/" target="_blank">Linkedin!</a>
+            https://github.com/iigonzoii" target="_blank" className="text-blue-500">Github</a>, download my  <a href="
+            https://docs.google.com/document/d/1QwG0Qcn2CDvBcTuAvHeYNLwq-zLPtA53K0RXMmcVwm4/export?format=pdf" target="_blank" className="text-blue-500">Resume</a>,  and find me on  <a href="
+            https://www.linkedin.com/in/gonzalez418/" target="_blank" className="text-blue-500">Linkedin!</a>
       </div>
       
       </div>
