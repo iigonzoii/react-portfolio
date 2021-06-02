@@ -1,4 +1,4 @@
-.mystack { 
+/* .mystack { 
     background-image:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -9,4 +9,16 @@
     -o-background-size: cover;
     background-size: cover;
     width: max-content;
-}
+} */
+
+.mystack{
+    
+        background: 
+          linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("https://firebasestorage.googleapis.com/v0/b/react-portfolio-7e81b.appspot.com/o/mystack.jpeg?alt=media&token=4d82ac8b-67f4-44aa-ba59-ec06b462c961");
+        background-size: cover;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
