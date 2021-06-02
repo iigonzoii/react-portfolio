@@ -36,7 +36,7 @@ function Header () {
   </li>
 
 </ul>
-<h1 className ="text-blue-500"> Aaron Gonzalez 219-808-3844 a.gonzalez418@gmail.com</h1>
+<h1 className ="text-blue-500 bg-black text-center"> Aaron Gonzalez 219-808-3844 a.gonzalez418@gmail.com</h1>
 </header>
 
 
