@@ -1,14 +1,15 @@
-
+import "../pages/ContactPage/contact.css"
 function ContactMeComponent(){
     return(
        
-        <body>
-    <div className="flex w-full justify-around items-center bg-gray-100  text-gray-900">   
+        <div className="h-screen contact">
+    <div className="justify-items-center flex w-full justify-around items-center bg-gray-100  text-gray-900">   
     </div>
-    <form action="" className="my-20 p-10 max-w-xl mx-auto shadow-md sm:border-0 md:border md:border-gray-900 bg-gray-100 text-gray-900">
+    <form action="" className=" p-10 max-w-xl mx-auto shadow-md sm:border-0 md:border md:border-gray-900 bg-gray-100 text-gray-900">
         <div className="mb-10">
             <h1 className="font-bold text-4xl mb-3">Get in touch</h1>
-            <p className="font-medium text-lg mb-5">Send me a quick message and I'll get back to you shortly.</p>
+            <p className="font-medium text-lg mb-5">Send me a quick message and I'll get back to you shortly. <a href="mailto:a.gonzalez418@gmail.com">sendit</a></p>
+
             <hr className="border-gray-900" />
         </div>
         <div className="mb-5">
@@ -33,7 +34,7 @@ function ContactMeComponent(){
             <button type="button" className="font-medium shadow-md rounded-none p-2 w-full focus:outline-none focus:ring-2 focus:ring-offset-2 border border-gray-900 bg-gray-800  text-gray-200 hover:bg-gray-900"><i className="fas fa-check"></i> Send</button>
         </div>
     </form>
-</body>
+</div>
 
     )
 }
