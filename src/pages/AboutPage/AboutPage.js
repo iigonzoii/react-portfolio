@@ -1,24 +1,32 @@
-import "./about.css"
+import Footer from "../../components/Footer"
 
 
 function AboutPage() {
     return (
-      <div className="wrapper">   
-        <img className="pic" src={"https://firebasestorage.googleapis.com/v0/b/react-portfolio-7e81b.appspot.com/o/alpinerockcropl.jpeg?alt=media&token=6054a86e-c08c-4c91-bda3-7bf1d21b41eb"}
-        alt={"me sitting on a rock"} />       
-        <div className="info">
-      Originally from the midwest just outside of Chicago, I moved to Denver in 2016. I am a Front-end web developer using life's struggles and accomplishments as fuel to drive an old school work ethic paired with a new school mindset into the next chapter of my life. I love solving problems and making things aesthetically pleasing. I would love to work on user interfaces and design to provide people with seamless and responsive interactions upon visiting a website I’ve built. I love css, generating and displaying html with Javascript, and seeing a blank screen come to life. I also love learning how to build my own components, I am learning to pick apart styling frameworks to drive my root knowledge of css even deeper. I’ve come to learn that starting small allows you to build big if you stay the course. I recently earned a certificate in full stack development provided by the university of denver. Skills I am actively using to create applications and am efficient in are React, JavaScript, CSS, HTML, Node.js, Object Oriented Programming, Web APIs, and MongoDB. I can’t wait to add the discipline I’ve cultivated in my life to a new career that excites me and makes me happy. I see value in having me around in the simple, but often overlooked, ways. I am reliable, punctual, communicative, forward spoken, and do my best to lead by example of all aspects of my life. Also, I really love riding and working on my motorcycle as well as hanging out with my 11 year old cat Raja :).
+
+      <>
+      <div class="container mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 h-screen">
+      <div class="max-h-96 md:h-screen">
+        <img class="w-screen h-screen object-cover object-top" src={"https://firebasestorage.googleapis.com/v0/b/react-portfolio-7e81b.appspot.com/o/alpinerockoriginal.jpeg?alt=media&token=2f2bbd32-0030-42a1-8bbe-d3a82c0a0ff6"} alt=""/>
+      </div>
+      <div class="flex bg-gray-100 p-10">
+        <div class="mb-auto mt-auto max-w-lg">
+          <h1 class="text-3xl uppercase">Aaron Gonzalez</h1>
+          <p class="font-semibold mb-5">Web Developer</p>
       
-      Most of my career background was in sales and contsruction. I'm extremely excited to move into a different
-            field. I hope to work remotely one day and I would love to travel abroad. Take a look at my <a href="
-            https://github.com/iigonzoii" target="_blank" className="text-blue-500">Github</a>, download my  <a href="
-            https://docs.google.com/document/d/1QwG0Qcn2CDvBcTuAvHeYNLwq-zLPtA53K0RXMmcVwm4/export?format=pdf" target="_blank" className="text-blue-500">Resume</a>,  and find me on  <a href="
-            https://www.linkedin.com/in/gonzalez418/" target="_blank" className="text-blue-500">Linkedin!</a>
+          <p>Originally from the midwest just outside of Chicago, I moved to Denver in 2016. I am a Front-end web developer using life's struggles and accomplishments as fuel to drive an old school work ethic paired with a new school mindset into the next chapter of my life. I love solving problems and making things aesthetically pleasing. I really enjoy working with Reactjs and aim to make my code as dynamic as possible. I recently earned a certificate in full stack development provided by the university of denver. Skills I am actively using to create applications and am efficient in are React, JavaScript, CSS, HTML, Node.js, Object Oriented Programming, Web APIs, and MongoDB. I can’t wait to add the discipline I’ve cultivated in my life to a new career that excites me and makes me happy. I see value in having me around in the simple, but often overlooked, ways. I am reliable, punctual, communicative, forward spoken, and do my best to lead by example in all aspects of my life. Also, I really love riding and working on my motorcycle as well as hanging out with my 11 year old cat Raja :).</p>
+          <button class="bg-black rounded-md py-3 px-7 mt-6 text-white"><a href="mailto:a.gonzalez418@gmail.com">Email Me</a></button>
+        </div>
       </div>
-      </div>
+    </div>
+    
+  </div>
+      </>
+      
       
     );
-  }
+    }
   
   export default AboutPage;
   

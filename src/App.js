@@ -25,7 +25,7 @@ function App() {
           <Route exact path="/contact" component={ContactPage} />
           <Route exact path="/portfolio" component={PortfolioPage} />
         </div>
-        <Footer />
+      
       </Router>
 
       

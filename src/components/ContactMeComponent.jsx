@@ -2,7 +2,7 @@ import "../pages/ContactPage/contact.css"
 function ContactMeComponent(){
     return(
        
-        <div className="h-screen contact">
+        <div className="h-full contact">
     <div className="justify-items-center flex w-full justify-around items-center bg-gray-100  text-gray-900">   
     </div>
     <form action="" className=" p-10 max-w-xl mx-auto shadow-md sm:border-0 md:border md:border-gray-900 bg-gray-100 text-gray-900">
