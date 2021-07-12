@@ -35,6 +35,24 @@ let portfolioArray = [
     description:
       "Command line application using Node.js to create team profiles for your business",
   },
+  {
+    title: "Belay Buddy",
+    gitHub: "https://github.com/paxton44/belay-buddy",
+    deployedSite:
+      "https://drive.google.com/file/d/1ikJFGkNK2Xt7bPuYxJmJn6yohxJAw1Ht/view",
+    img: "https://raw.githubusercontent.com/paxton44/belay-buddy/main/client/BelayBuddyPictures/landingpage.png",
+    description:
+      "Application in development for people to meet other rock climbers to partner and learn with",
+  },
+  {
+    title: "Employee Tracker",
+    gitHub: "https://github.com/iigonzoii/Employee-Tracker",
+    deployedSite:
+      "https://drive.google.com/file/d/1o5mH19KhQ79HI4axrDuIulG5ifPUnsfP/view",
+    img: "https://raw.githubusercontent.com/iigonzoii/Employee-Tracker/main/images/et.jpg",
+    description:
+      "command line application using node.js and MySQL for the database in order to keep track of employees, their departments, managers, salaries, and roles in the company."
+  },
 ];
 function PortfolioPage() {
   return (
