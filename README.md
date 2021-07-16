@@ -13,7 +13,7 @@
   - [Questions](#questions)
 
   ## Description
-  App for tracking your budget on and offline.
+  Portfolio using createreactapp. The images here are from my rough draft. The current portfolio is actually the second react version and the third version since my first. 
 
   ## Installation
   no install required. you can checkout the deployed site on GHpages listed below
@@ -21,7 +21,7 @@
   <img src="./public/rp.jpg">
   <img src="./public/rp2.jpg">
   <img src="./public/rp3.jpg">
-  <img src="./public/rp4.jpg">
+  
    
   
 
