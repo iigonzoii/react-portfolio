@@ -3,7 +3,7 @@ function AboutPage() {
     return (
 
       <>
-      <div class="container mx-auto">
+      <div class="container md:py-20 mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2 h-screen">
       <div class="max-h-96 md:h-screen">
         <img class="w-screen h-screen object-cover object-top" src={"https://firebasestorage.googleapis.com/v0/b/react-portfolio-7e81b.appspot.com/o/alpinerockoriginal.jpeg?alt=media&token=2f2bbd32-0030-42a1-8bbe-d3a82c0a0ff6"} alt=""/>
